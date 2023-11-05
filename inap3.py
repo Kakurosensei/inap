@@ -3,9 +3,14 @@ from bs4 import BeautifulSoup
 import difflib
 import time
 from datetime import datetime
+import os
+from dotenv import load_dotenv
 
-TOKEN = "6975578482:AAFILENq--Ooy0YbYoRNn2tpk9Hpk0bADok"
-chat_id = "309941493"
+load_dotenv()
+
+TOKEN = os.getenv('TOKEN')
+
+chat_id = os.getenv('chat_id')
 
 # target U
 link = "https://sede.inap.gob.es/tail-oep-2020-2021-2022"
