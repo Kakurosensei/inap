@@ -7,7 +7,7 @@ from datetime import datetime
 TOKEN = "6975578482:AAFILENq--Ooy0YbYoRNn2tpk9Hpk0bADok"
 chat_id = "309941493"
 
-# target URL
+# target U
 link = "https://sede.inap.gob.es/tail-oep-2020-2021-2022"
 # act like a browser
 headers = {
